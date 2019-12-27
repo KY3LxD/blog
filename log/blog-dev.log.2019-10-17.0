@@ -1,0 +1,361 @@
+2019-10-17 18:40:59.356  INFO 2640 --- [restartedMain] com.kyel.blog.BlogApplication            : Starting BlogApplication on DESKTOP-VHDBJ0P with PID 2640 (D:\IdeaProject\blog\target\classes started by User in D:\IdeaProject\blog)
+2019-10-17 18:40:59.361 DEBUG 2640 --- [restartedMain] com.kyel.blog.BlogApplication            : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-10-17 18:40:59.361  INFO 2640 --- [restartedMain] com.kyel.blog.BlogApplication            : The following profiles are active: dev
+2019-10-17 18:40:59.436  INFO 2640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-17 18:40:59.436  INFO 2640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-17 18:41:00.405  INFO 2640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 18:41:00.476  INFO 2640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 4 repository interfaces.
+2019-10-17 18:41:00.801  INFO 2640 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$436cfb41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-17 18:41:01.311  INFO 2640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-17 18:41:01.332  INFO 2640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-17 18:41:01.332  INFO 2640 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-17 18:41:01.468  INFO 2640 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-17 18:41:01.469  INFO 2640 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2033 ms
+2019-10-17 18:41:01.647  INFO 2640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-17 18:41:01.749  INFO 2640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-17 18:41:01.799  INFO 2640 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-17 18:41:01.874  INFO 2640 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-17 18:41:01.875  INFO 2640 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-17 18:41:02.017  INFO 2640 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-17 18:41:02.207  INFO 2640 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-17 18:41:03.192  INFO 2640 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 18:41:03.256  INFO 2640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-17 18:41:04.119  INFO 2640 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-17 18:41:04.168  WARN 2640 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-17 18:41:04.213  INFO 2640 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-17 18:41:04.548  INFO 2640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-17 18:41:04.550  INFO 2640 --- [restartedMain] com.kyel.blog.BlogApplication            : Started BlogApplication in 5.829 seconds (JVM running for 6.788)
+2019-10-17 20:57:12.942  INFO 10292 --- [restartedMain] com.kyel.blog.BlogApplication            : Starting BlogApplication on DESKTOP-VHDBJ0P with PID 10292 (D:\IdeaProject\blog\target\classes started by User in D:\IdeaProject\blog)
+2019-10-17 20:57:12.945 DEBUG 10292 --- [restartedMain] com.kyel.blog.BlogApplication            : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-10-17 20:57:12.945  INFO 10292 --- [restartedMain] com.kyel.blog.BlogApplication            : The following profiles are active: dev
+2019-10-17 20:57:13.026  INFO 10292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-17 20:57:13.026  INFO 10292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-17 20:57:13.709  INFO 10292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 20:57:13.771  INFO 10292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 4 repository interfaces.
+2019-10-17 20:57:14.043  INFO 10292 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3a9dcf3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-17 20:57:14.433  INFO 10292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-17 20:57:14.450  INFO 10292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-17 20:57:14.450  INFO 10292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-17 20:57:14.575  INFO 10292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-17 20:57:14.576  INFO 10292 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1550 ms
+2019-10-17 20:57:14.710  INFO 10292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-17 20:57:14.797  INFO 10292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-17 20:57:14.836  INFO 10292 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-17 20:57:14.880  INFO 10292 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-17 20:57:14.881  INFO 10292 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-17 20:57:14.981  INFO 10292 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-17 20:57:15.108  INFO 10292 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-17 20:57:15.910  INFO 10292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 20:57:15.962  INFO 10292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-17 20:57:16.226  INFO 10292 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-17 20:57:16.749  INFO 10292 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-17 20:57:16.788  WARN 10292 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-17 20:57:16.832  INFO 10292 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-17 20:57:17.289  INFO 10292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-17 20:57:17.291  INFO 10292 --- [restartedMain] com.kyel.blog.BlogApplication            : Started BlogApplication in 4.838 seconds (JVM running for 5.613)
+2019-10-17 20:57:31.578  INFO 10292 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-17 20:57:31.578  INFO 10292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-17 20:57:31.591  INFO 10292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-10-17 20:57:34.016  INFO 10292 --- [http-nio-8080-exec-8] com.kyel.blog.aspect.LogAspect           : RequestLog: {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.kyel.blog.web.indexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2019-10-17 20:57:34.105  WARN 10292 --- [http-nio-8080-exec-8] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 20:57:34.115  WARN 10292 --- [http-nio-8080-exec-8] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 20:57:34.121  INFO 10292 --- [http-nio-8080-exec-8] com.kyel.blog.aspect.LogAspect           : Result: index
+2019-10-17 20:59:32.278  INFO 13964 --- [restartedMain] com.kyel.blog.BlogApplication            : Starting BlogApplication on DESKTOP-VHDBJ0P with PID 13964 (D:\IdeaProject\blog\target\classes started by User in D:\IdeaProject\blog)
+2019-10-17 20:59:32.282 DEBUG 13964 --- [restartedMain] com.kyel.blog.BlogApplication            : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-10-17 20:59:32.282  INFO 13964 --- [restartedMain] com.kyel.blog.BlogApplication            : The following profiles are active: dev
+2019-10-17 20:59:32.355  INFO 13964 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-17 20:59:32.355  INFO 13964 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-17 20:59:32.924  INFO 13964 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 20:59:32.990  INFO 13964 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 4 repository interfaces.
+2019-10-17 20:59:33.256  INFO 13964 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$30897c4e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-17 20:59:33.679  INFO 13964 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-17 20:59:33.698  INFO 13964 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-17 20:59:33.698  INFO 13964 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-17 20:59:33.839  INFO 13964 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-17 20:59:33.840  INFO 13964 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1484 ms
+2019-10-17 20:59:33.992  INFO 13964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-17 20:59:34.089  INFO 13964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-17 20:59:34.128  INFO 13964 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-17 20:59:34.171  INFO 13964 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-17 20:59:34.172  INFO 13964 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-17 20:59:34.264  INFO 13964 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-17 20:59:34.384  INFO 13964 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-17 20:59:35.228  INFO 13964 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 20:59:35.275  INFO 13964 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-17 20:59:35.523  INFO 13964 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-17 20:59:35.995  INFO 13964 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-17 20:59:36.040  WARN 13964 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-17 20:59:36.090  INFO 13964 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-17 20:59:36.565  INFO 13964 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-17 20:59:36.566  INFO 13964 --- [restartedMain] com.kyel.blog.BlogApplication            : Started BlogApplication in 4.73 seconds (JVM running for 5.415)
+2019-10-17 21:00:02.912  INFO 10268 --- [restartedMain] com.kyel.blog.BlogApplication            : Starting BlogApplication on DESKTOP-VHDBJ0P with PID 10268 (D:\IdeaProject\blog\target\classes started by User in D:\IdeaProject\blog)
+2019-10-17 21:00:02.915 DEBUG 10268 --- [restartedMain] com.kyel.blog.BlogApplication            : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-10-17 21:00:02.915  INFO 10268 --- [restartedMain] com.kyel.blog.BlogApplication            : The following profiles are active: dev
+2019-10-17 21:00:02.995  INFO 10268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-17 21:00:02.995  INFO 10268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-17 21:00:03.478  INFO 10268 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 21:00:03.537  INFO 10268 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 4 repository interfaces.
+2019-10-17 21:00:03.790  INFO 10268 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$505383b3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-17 21:00:04.157  INFO 10268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-17 21:00:04.173  INFO 10268 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-17 21:00:04.173  INFO 10268 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-17 21:00:04.292  INFO 10268 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-17 21:00:04.293  INFO 10268 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1297 ms
+2019-10-17 21:00:04.418  INFO 10268 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-17 21:00:04.506  INFO 10268 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-17 21:00:04.550  INFO 10268 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-17 21:00:04.597  INFO 10268 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-17 21:00:04.598  INFO 10268 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-17 21:00:04.710  INFO 10268 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-17 21:00:04.842  INFO 10268 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-17 21:00:05.599  INFO 10268 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 21:00:05.669  INFO 10268 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-17 21:00:05.914  INFO 10268 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-17 21:00:06.376  INFO 10268 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-17 21:00:06.413  WARN 10268 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-17 21:00:06.454  INFO 10268 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-17 21:00:06.890  INFO 10268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-17 21:00:06.892  INFO 10268 --- [restartedMain] com.kyel.blog.BlogApplication            : Started BlogApplication in 4.4 seconds (JVM running for 5.118)
+2019-10-17 21:00:12.624  INFO 10268 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-17 21:00:12.624  INFO 10268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-17 21:00:12.636  INFO 10268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-10-17 21:00:12.664  INFO 10268 --- [http-nio-8080-exec-1] com.kyel.blog.aspect.LogAspect           : RequestLog: {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.kyel.blog.web.indexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2019-10-17 21:00:12.751  WARN 10268 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 21:00:12.764  WARN 10268 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 21:00:12.770  INFO 10268 --- [http-nio-8080-exec-1] com.kyel.blog.aspect.LogAspect           : Result: index
+2019-10-17 21:02:09.990  INFO 10268 --- [http-nio-8080-exec-7] com.kyel.blog.aspect.LogAspect           : RequestLog: {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.kyel.blog.web.indexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2019-10-17 21:02:10.000  INFO 10268 --- [http-nio-8080-exec-7] com.kyel.blog.aspect.LogAspect           : Result: index
+2019-10-17 21:03:12.613  INFO 10268 --- [http-nio-8080-exec-3] com.kyel.blog.aspect.LogAspect           : RequestLog: {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.kyel.blog.web.indexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2019-10-17 21:03:12.624  INFO 10268 --- [http-nio-8080-exec-3] com.kyel.blog.aspect.LogAspect           : Result: index
+2019-10-17 21:08:38.982  INFO 10268 --- [http-nio-8080-exec-4] com.kyel.blog.aspect.LogAspect           : RequestLog: {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.kyel.blog.web.indexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2019-10-17 21:08:38.996  INFO 10268 --- [http-nio-8080-exec-4] com.kyel.blog.aspect.LogAspect           : Result: index
+2019-10-17 21:10:47.639  INFO 6352 --- [restartedMain] com.kyel.blog.BlogApplication            : Starting BlogApplication on DESKTOP-VHDBJ0P with PID 6352 (D:\IdeaProject\blog\target\classes started by User in D:\IdeaProject\blog)
+2019-10-17 21:10:47.642 DEBUG 6352 --- [restartedMain] com.kyel.blog.BlogApplication            : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-10-17 21:10:47.642  INFO 6352 --- [restartedMain] com.kyel.blog.BlogApplication            : The following profiles are active: dev
+2019-10-17 21:10:47.685  INFO 6352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-17 21:10:47.686  INFO 6352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-17 21:10:48.319  INFO 6352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 21:10:48.385  INFO 6352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 4 repository interfaces.
+2019-10-17 21:10:48.657  INFO 6352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$19461f88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-17 21:10:49.008  INFO 6352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-17 21:10:49.026  INFO 6352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-17 21:10:49.026  INFO 6352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-17 21:10:49.181  INFO 6352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-17 21:10:49.181  INFO 6352 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1495 ms
+2019-10-17 21:10:49.309  INFO 6352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-17 21:10:49.396  INFO 6352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-17 21:10:49.433  INFO 6352 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-17 21:10:49.475  INFO 6352 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-17 21:10:49.477  INFO 6352 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-17 21:10:49.584  INFO 6352 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-17 21:10:49.729  INFO 6352 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-17 21:10:50.547  INFO 6352 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 21:10:50.609  INFO 6352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-17 21:10:50.914  INFO 6352 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-17 21:10:51.412  INFO 6352 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-17 21:10:51.462  WARN 6352 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-17 21:10:51.512  INFO 6352 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-17 21:10:52.025  INFO 6352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-17 21:10:52.029  INFO 6352 --- [restartedMain] com.kyel.blog.BlogApplication            : Started BlogApplication in 5.355 seconds (JVM running for 6.546)
+2019-10-17 21:10:53.653  INFO 6352 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-17 21:10:53.653  INFO 6352 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-17 21:10:53.666  INFO 6352 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-10-17 21:11:47.490  INFO 6352 --- [http-nio-8080-exec-8] com.kyel.blog.aspect.LogAspect           : RequestLog: {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.kyel.blog.web.indexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2019-10-17 21:11:47.503  WARN 6352 --- [http-nio-8080-exec-8] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 21:11:47.509  WARN 6352 --- [http-nio-8080-exec-8] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 21:11:47.513  INFO 6352 --- [http-nio-8080-exec-8] com.kyel.blog.aspect.LogAspect           : Result: index
+2019-10-17 21:17:51.066  INFO 4092 --- [restartedMain] com.kyel.blog.BlogApplication            : Starting BlogApplication on DESKTOP-VHDBJ0P with PID 4092 (D:\IdeaProject\blog\target\classes started by User in D:\IdeaProject\blog)
+2019-10-17 21:17:51.069 DEBUG 4092 --- [restartedMain] com.kyel.blog.BlogApplication            : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-10-17 21:17:51.069  INFO 4092 --- [restartedMain] com.kyel.blog.BlogApplication            : The following profiles are active: dev
+2019-10-17 21:17:51.149  INFO 4092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-17 21:17:51.149  INFO 4092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-17 21:17:51.607  INFO 4092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 21:17:51.666  INFO 4092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 4 repository interfaces.
+2019-10-17 21:17:51.924  INFO 4092 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$211b93bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-17 21:17:52.299  INFO 4092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-17 21:17:52.315  INFO 4092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-17 21:17:52.315  INFO 4092 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-17 21:17:52.437  INFO 4092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-17 21:17:52.437  INFO 4092 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1288 ms
+2019-10-17 21:17:52.563  INFO 4092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-17 21:17:52.644  INFO 4092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-17 21:17:52.682  INFO 4092 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-17 21:17:52.722  INFO 4092 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-17 21:17:52.723  INFO 4092 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-17 21:17:52.812  INFO 4092 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-17 21:17:52.931  INFO 4092 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-17 21:17:53.716  INFO 4092 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 21:17:53.764  INFO 4092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-17 21:17:54.021  INFO 4092 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-17 21:17:54.582  INFO 4092 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-17 21:17:54.625  WARN 4092 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-17 21:17:54.671  INFO 4092 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-17 21:17:55.114  INFO 4092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-17 21:17:55.116  INFO 4092 --- [restartedMain] com.kyel.blog.BlogApplication            : Started BlogApplication in 4.488 seconds (JVM running for 5.155)
+2019-10-17 21:17:58.221  INFO 4092 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-17 21:17:58.221  INFO 4092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-17 21:17:58.231  INFO 4092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-10-17 21:17:58.258  INFO 4092 --- [http-nio-8080-exec-1] com.kyel.blog.aspect.LogAspect           : RequestLog: {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.kyel.blog.web.indexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2019-10-17 21:17:58.344  WARN 4092 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 21:17:58.358  WARN 4092 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 21:17:58.389  INFO 4092 --- [http-nio-8080-exec-1] com.kyel.blog.aspect.LogAspect           : Result: index
+2019-10-17 21:18:46.826  INFO 14512 --- [restartedMain] com.kyel.blog.BlogApplication            : Starting BlogApplication on DESKTOP-VHDBJ0P with PID 14512 (D:\IdeaProject\blog\target\classes started by User in D:\IdeaProject\blog)
+2019-10-17 21:18:46.856 DEBUG 14512 --- [restartedMain] com.kyel.blog.BlogApplication            : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-10-17 21:18:46.856  INFO 14512 --- [restartedMain] com.kyel.blog.BlogApplication            : The following profiles are active: dev
+2019-10-17 21:18:46.883  INFO 14512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-17 21:18:46.883  INFO 14512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-17 21:18:47.358  INFO 14512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 21:18:47.418  INFO 14512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 4 repository interfaces.
+2019-10-17 21:18:47.678  INFO 14512 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ceebf9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-17 21:18:48.042  INFO 14512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-17 21:18:48.058  INFO 14512 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-17 21:18:48.058  INFO 14512 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-17 21:18:48.177  INFO 14512 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-17 21:18:48.177  INFO 14512 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1293 ms
+2019-10-17 21:18:48.304  INFO 14512 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-17 21:18:48.390  INFO 14512 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-17 21:18:48.439  INFO 14512 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-17 21:18:48.482  INFO 14512 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-17 21:18:48.483  INFO 14512 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-17 21:18:48.576  INFO 14512 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-17 21:18:48.705  INFO 14512 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-17 21:18:49.506  INFO 14512 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 21:18:49.555  INFO 14512 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-17 21:18:49.799  INFO 14512 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-17 21:18:50.268  INFO 14512 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-17 21:18:50.312  WARN 14512 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-17 21:18:50.369  INFO 14512 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-17 21:18:50.822  INFO 14512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-17 21:18:50.824  INFO 14512 --- [restartedMain] com.kyel.blog.BlogApplication            : Started BlogApplication in 4.493 seconds (JVM running for 5.216)
+2019-10-17 21:18:56.241  INFO 14512 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-17 21:18:56.241  INFO 14512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-17 21:18:56.252  INFO 14512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-10-17 21:18:56.279  INFO 14512 --- [http-nio-8080-exec-1] com.kyel.blog.aspect.LogAspect           : RequestLog: {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.kyel.blog.web.indexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2019-10-17 21:18:56.363  WARN 14512 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 21:18:56.377  WARN 14512 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 21:18:56.407  INFO 14512 --- [http-nio-8080-exec-1] com.kyel.blog.aspect.LogAspect           : Result: index
+2019-10-17 21:23:29.736  INFO 10292 --- [restartedMain] com.kyel.blog.BlogApplication            : Starting BlogApplication on DESKTOP-VHDBJ0P with PID 10292 (D:\IdeaProject\blog\target\classes started by User in D:\IdeaProject\blog)
+2019-10-17 21:23:29.738 DEBUG 10292 --- [restartedMain] com.kyel.blog.BlogApplication            : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-10-17 21:23:29.738  INFO 10292 --- [restartedMain] com.kyel.blog.BlogApplication            : The following profiles are active: dev
+2019-10-17 21:23:29.811  INFO 10292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-17 21:23:29.811  INFO 10292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-17 21:23:30.279  INFO 10292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 21:23:30.339  INFO 10292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 4 repository interfaces.
+2019-10-17 21:23:30.596  INFO 10292 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a521b159] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-17 21:23:30.968  INFO 10292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-17 21:23:30.983  INFO 10292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-17 21:23:30.984  INFO 10292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-17 21:23:31.101  INFO 10292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-17 21:23:31.102  INFO 10292 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1291 ms
+2019-10-17 21:23:31.227  INFO 10292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-17 21:23:31.315  INFO 10292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-17 21:23:31.359  INFO 10292 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-17 21:23:31.406  INFO 10292 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-17 21:23:31.407  INFO 10292 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-17 21:23:31.514  INFO 10292 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-17 21:23:31.652  INFO 10292 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-17 21:23:32.423  INFO 10292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 21:23:32.479  INFO 10292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-17 21:23:32.744  INFO 10292 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-17 21:23:33.217  INFO 10292 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-17 21:23:33.255  WARN 10292 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-17 21:23:33.297  INFO 10292 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-17 21:23:33.737  INFO 10292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-17 21:23:33.739  INFO 10292 --- [restartedMain] com.kyel.blog.BlogApplication            : Started BlogApplication in 4.419 seconds (JVM running for 5.091)
+2019-10-17 21:23:38.854  INFO 10292 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-17 21:23:38.854  INFO 10292 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-17 21:23:38.866  INFO 10292 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-10-17 21:23:38.895  INFO 10292 --- [http-nio-8080-exec-3] com.kyel.blog.aspect.LogAspect           : RequestLog: {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.kyel.blog.web.indexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2019-10-17 21:23:38.984  WARN 10292 --- [http-nio-8080-exec-3] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 21:23:38.997  WARN 10292 --- [http-nio-8080-exec-3] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 21:23:39.032  INFO 10292 --- [http-nio-8080-exec-3] com.kyel.blog.aspect.LogAspect           : Result: index
+2019-10-17 21:26:26.727  INFO 8564 --- [restartedMain] com.kyel.blog.BlogApplication            : Starting BlogApplication on DESKTOP-VHDBJ0P with PID 8564 (D:\IdeaProject\blog\target\classes started by User in D:\IdeaProject\blog)
+2019-10-17 21:26:26.729 DEBUG 8564 --- [restartedMain] com.kyel.blog.BlogApplication            : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-10-17 21:26:26.730  INFO 8564 --- [restartedMain] com.kyel.blog.BlogApplication            : The following profiles are active: dev
+2019-10-17 21:26:26.805  INFO 8564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-17 21:26:26.805  INFO 8564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-17 21:26:27.371  INFO 8564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 21:26:27.449  INFO 8564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70ms. Found 4 repository interfaces.
+2019-10-17 21:26:27.750  INFO 8564 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a49a78ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-17 21:26:28.157  INFO 8564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-17 21:26:28.173  INFO 8564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-17 21:26:28.174  INFO 8564 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-17 21:26:28.295  INFO 8564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-17 21:26:28.295  INFO 8564 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1489 ms
+2019-10-17 21:26:28.428  INFO 8564 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-17 21:26:28.512  INFO 8564 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-17 21:26:28.546  INFO 8564 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-17 21:26:28.588  INFO 8564 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-17 21:26:28.589  INFO 8564 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-17 21:26:28.679  INFO 8564 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-17 21:26:28.797  INFO 8564 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-17 21:26:29.619  INFO 8564 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 21:26:29.680  INFO 8564 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-17 21:26:29.977  INFO 8564 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-17 21:26:30.554  INFO 8564 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-17 21:26:30.603  WARN 8564 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-17 21:26:30.655  INFO 8564 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-17 21:26:31.114  INFO 8564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-17 21:26:31.116  INFO 8564 --- [restartedMain] com.kyel.blog.BlogApplication            : Started BlogApplication in 4.823 seconds (JVM running for 5.531)
+2019-10-17 21:26:36.832  INFO 8564 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-17 21:26:36.832  INFO 8564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-17 21:26:36.843  INFO 8564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-10-17 21:26:36.870  INFO 8564 --- [http-nio-8080-exec-1] com.kyel.blog.aspect.LogAspect           : RequestLog: {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.kyel.blog.web.indexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2019-10-17 21:26:36.956  WARN 8564 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 21:26:36.970  WARN 8564 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 21:26:37.005  INFO 8564 --- [http-nio-8080-exec-1] com.kyel.blog.aspect.LogAspect           : Result: index
+2019-10-17 21:30:25.520  INFO 6064 --- [restartedMain] com.kyel.blog.BlogApplication            : Starting BlogApplication on DESKTOP-VHDBJ0P with PID 6064 (D:\IdeaProject\blog\target\classes started by User in D:\IdeaProject\blog)
+2019-10-17 21:30:25.522 DEBUG 6064 --- [restartedMain] com.kyel.blog.BlogApplication            : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-10-17 21:30:25.523  INFO 6064 --- [restartedMain] com.kyel.blog.BlogApplication            : The following profiles are active: dev
+2019-10-17 21:30:25.596  INFO 6064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-17 21:30:25.596  INFO 6064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-17 21:30:26.069  INFO 6064 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 21:30:26.130  INFO 6064 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 4 repository interfaces.
+2019-10-17 21:30:26.383  INFO 6064 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$60042eb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-17 21:30:26.740  INFO 6064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-17 21:30:26.756  INFO 6064 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-17 21:30:26.757  INFO 6064 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-17 21:30:26.877  INFO 6064 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-17 21:30:26.877  INFO 6064 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1281 ms
+2019-10-17 21:30:27.002  INFO 6064 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-17 21:30:27.085  INFO 6064 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-17 21:30:27.122  INFO 6064 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-17 21:30:27.163  INFO 6064 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-17 21:30:27.164  INFO 6064 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-17 21:30:27.253  INFO 6064 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-17 21:30:27.371  INFO 6064 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-17 21:30:28.173  INFO 6064 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 21:30:28.239  INFO 6064 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-17 21:30:28.481  INFO 6064 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-17 21:30:28.952  INFO 6064 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-17 21:30:29.006  WARN 6064 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-17 21:30:29.048  INFO 6064 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-17 21:30:29.479  INFO 6064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-17 21:30:29.481  INFO 6064 --- [restartedMain] com.kyel.blog.BlogApplication            : Started BlogApplication in 4.377 seconds (JVM running for 5.356)
+2019-10-17 21:31:08.479  INFO 6064 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-17 21:31:08.479  INFO 6064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-17 21:31:08.491  INFO 6064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-10-17 21:32:00.833  INFO 6064 --- [http-nio-8080-exec-5] com.kyel.blog.aspect.LogAspect           : RequestLog: {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.kyel.blog.web.indexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2019-10-17 21:32:00.844  WARN 6064 --- [http-nio-8080-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 21:32:00.850  WARN 6064 --- [http-nio-8080-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-17 21:32:00.861  INFO 6064 --- [http-nio-8080-exec-5] com.kyel.blog.aspect.LogAspect           : Result: index
