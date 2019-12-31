@@ -50,7 +50,7 @@
                     <i class="calendar icon"></i> 2017-10-01
                 </div>
                 <div class="item">
-                    <i class="eye icon" ></i>
+                    <i class="eye icon"></i>
                     &nbsp;
                     <span th:text="${blog.views}">2342</span>
                 </div>
@@ -478,36 +478,39 @@ h5,h6{font-size:1em;}
             </div>
 
             <!--赞赏-->
-            <div class="ui center aligned basic segment">
-                <button id="payButton" class="ui orange basic circular button">赞赏</button>
-            </div>
-            <div class="ui payQR flowing popup transition hidden">
-                <div class="ui orange basic label">
-                    <div class="ui images" style="font-size: inherit !important;">
-                        <div class="image m-padded-lr-rightheavy-responsive">
-                            <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" alt=""
-                                 class="ui rounded bordered image"
-                                 style="width: 120px">
-                            <div>支付宝</div>
-                        </div>
-                        <div class="image m-padded-lr-leftheavy-responsive">
-                            <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" alt=""
-                                 class="ui rounded bordered image"
-                                 style="width: 120px">
-                            <div>微信</div>
+            <div th:if="${blog.appreciation}">
+                <div class="ui center aligned basic segment">
+                    <button id="payButton" class="ui orange basic circular button">赞赏</button>
+                </div>
+                <div class="ui payQR flowing popup transition hidden">
+                    <div class="ui orange basic label">
+                        <div class="ui images" style="font-size: inherit !important;">
+                            <div class="image m-padded-lr-rightheavy-responsive">
+                                <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" alt=""
+                                     class="ui rounded bordered image"
+                                     style="width: 120px">
+                                <div>支付宝</div>
+                            </div>
+                            <div class="image m-padded-lr-leftheavy-responsive">
+                                <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" alt=""
+                                     class="ui rounded bordered image"
+                                     style="width: 120px">
+                                <div>微信</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
+
         </div>
-        <div class="ui attached positive message">
+        <div class="ui attached positive message" th:if="${blog.shareStatement}">
             <!--博客信息-->
             <div class="ui middle aligned grid">
                 <div class="eleven wide column">
                     <ui class="list">
                         <li>作者：<span th:text="${blog.user.username}">KY3L</span><a href="" th:href="@{/about}"
-                                                                                   target="_blank">(联系作者</a></li>
+                                                                                   target="_blank">&nbsp;联系作者</a></li>
                         <li>发表时间：<span
                                 th:text="${#dates.format(blog.updateTime, 'yyyy-MM-dd HH:mm')}">2017-10-02 09:08</span>
                         </li>
@@ -522,7 +525,7 @@ h5,h6{font-size:1em;}
                 </div>
             </div>
         </div>
-        <div class="ui bottom attached segment">
+        <div class="ui bottom attached segment" th:if="${blog.canBeCommented}">
             <!--留言区域列表-->
             <div id="comment-container" class="ui teal segment">
                 <div th:fragment="commentList">
@@ -651,7 +654,8 @@ h5,h6{font-size:1em;}
                     <div class="field m-mobile-wide m-margin-bottom-small">
                         <div class="ui left icon input">
                             <i class="user icon"></i>
-                            <input type="text" name="username" placeholder="姓名" th:value="${session.user}!=null ? ${session.user.username}">
+                            <input type="text" name="username" placeholder="姓名"
+                                   th:value="${session.user}!=null ? ${session.user.username}">
                         </div>
                     </div>
                     <div class="field m-mobile-wide m-margin-bottom-small">
@@ -773,7 +777,7 @@ h5,h6{font-size:1em;}
         position: 'left center'
     });
 
-    var serverUrl = "127.0.0.1:8080";
+    var serverUrl = /*[[#{blog.serverUrl}]]*/"127.0.0.1:8080";
     var url = /*[[@{/blog/{id}(id=${blog.id}}]]*/"";
     var qrcode = new QRCode("qrcode", {
         text: serverUrl + url,

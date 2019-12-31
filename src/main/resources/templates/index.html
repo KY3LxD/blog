@@ -4,7 +4,7 @@
 <head th:replace="_fragments :: head(~{::title})">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front Page</title>
+    <title>首页</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
     <link rel="stylesheet" href="../static/css/me.css">
 </head>
@@ -483,13 +483,13 @@
                                 <i class="idea icon"></i>分类
                             </div>
                             <div class="right aligned column">
-                                <a href="#" target="_blank">more <i class="angle double right icon"></i></a>
+                                <a href="#" th:href="@{/types/-1}" target="_blank">more <i class="angle double right icon"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="ui teal segment">
                         <div class="ui fluid vertical menu">
-                            <a href="#" class="item" th:each="type : ${types}">
+                            <a href="#" th:href="@{/types/{id}(id=${type.id})}" class="item" th:each="type : ${types}">
                                 <span th:text="${type.name}">学习日志</span>
                                 <div class="ui teal basic left pointing label" th:text="${#arrays.length(type.blogs)}">
                                     13
@@ -529,7 +529,7 @@
                                 <i class="tags icon"></i>标签
                             </div>
                             <div class="right aligned column">
-                                <a href="#" target="_blank">more <i class="angle double right icon"></i></a>
+                                <a href="#" th:href="@{/tags/-1}" target="_blank">more <i class="angle double right icon"></i></a>
                             </div>
                         </div>
                     </div>
